@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+body {
+  color: #15202a;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  padding: 1.85rem 2.35em;
+  text-align: center;
+  height: 100vh;
+}
+
+form {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+form h1 {
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+
+form input {
+  margin-top: 1.6em;
+  padding: 0.5em 1.6em;
+  border-radius: 1.4rem;
+  border: 1px solid #969696;
+  width: 100%;
+  outline: none;
+}
+
+#point {
+  color: #4c7bf3;
+}
+
+#launching {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #969696;
+}
+
+#soon {
+  color: #15202a;
+  font-weight: bold;
+}
+
+#subscribe {
+  font-size: 0.75rem;
+  margin-top: 1em;
+}
+
+.illustration img {
+  width: 100%;
+}
+
+.error {
+  margin-top: 4px;
+  font-style: italic;
+  color: #ff5466;
+  font-size: 0.65rem;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  width: 100%;
+  background-color: #4c7bf3;
+  border-radius: 1.4rem;
+  color: #fff;
+  padding: 0.6em 5.625em;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.230414);
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #799aee;
+}
+
+button:active {
+  transform: translateY(0.25rem);
+}
+
+.social {
+  margin-top: 3.5em;
+}
+
+.icon-border-square {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.6em;
+  height: 1.6em;
+  border: 2px solid rgba(76, 123, 243, 0.15);
+  border-radius: 50%;
+  margin: 0 0.2em;
+}
+
+.icons a {
+  /* border: 2px solid red; */
+  border-radius: 50%;
+  width: 100%;
+  color: #4c7bf3;
+  transition: 0.2s;
+}
+
+.icon-border-square:hover {
+  cursor: pointer;
+  background-color: #4c7bf3;
+}
+
+.icons a:hover {
+  color: #fff;
+}
+
+#copyright {
+  margin-top: 2.4em;
+  font-size: 0.65rem;
+}
+
+/* Media Queries Begin */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 968px;
+    margin: 0 auto;
+  }
+
+  .form-field {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .input {
+    padding: 0.9em;
+    width: 60%;
+  }
+
+  .error {
+    position: absolute;
+    top: 5em;
+    left: 1em;
+  }
+
+  .btn {
+    /* font-size: 0.8rem; */
+    width: 35%;
+  }
+}
+
+/* Media Queries End */

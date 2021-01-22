@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/d239cac0a2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#">
+        <h1>PING<span id="point">.</span></h1>
+        <p id="launching">We are launching <span id="soon">soon!</span></p>
+        <p id="subscribe">Subscribe and get notified</p>
+        <div class="form-field">
+          <label for="email"></label>
+          <input
+            class="input"
+            type="text"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <p class="error" hidden></p>
+          <button class="btn">Notify Me</button>
+        </div>
+      </form>
+      <div class="illustration">
+        <img
+          src="images/illustration-dashboard.png"
+          alt="dasboard illustration"
+        />
+      </div>
+      <div class="social">
+        <div class="icons">
+          <div class="icon-border-square">
+            <a href="#"><i class="fab fa-facebook-f fa-xs"></i></a>
+          </div>
+          <div class="icon-border-square">
+            <a href="#"><i class="fab fa-twitter fa-xs"></i></a>
+          </div>
+          <div class="icon-border-square">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <p id="copyright">&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
